@@ -12,17 +12,18 @@
 
 HTML • CSS • JavaScript
 
-
+______________________________________________________________________________________________
 📝 Features:
 
 Responsive video gallery layout
+
 Playable embedded videos
 
 Smooth hover effects
 
 Clean, minimalist UI
 
-
+______________________________________________________________________________________________
 💡 What I Learned:
 
 Organizing HTML structure for multimedia
