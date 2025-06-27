@@ -1,14 +1,17 @@
 
 🎥 Video Gallery Project
+
 [A responsive and interactive video gallery built with HTML, CSS, and vanilla JavaScript.]
 
 🚀 Live Demo Link : https://krishnasugangar.github.io/Video-Gallery/
 
 📁 Repository Link : https://github.com/Krishnasugangar/Video-Gallery
 
+
 🔧 Tech Stack:
 
 HTML • CSS • JavaScript
+
 
 📝 Features:
 
@@ -19,6 +22,7 @@ Playable embedded videos
 Smooth hover effects
 
 Clean, minimalist UI
+
 
 💡 What I Learned:
 
