@@ -16,7 +16,6 @@ HTML • CSS • JavaScript
 📝 Features:
 
 Responsive video gallery layout
-
 Playable embedded videos
 
 Smooth hover effects
