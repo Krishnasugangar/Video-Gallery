@@ -4,7 +4,7 @@
 [A responsive and interactive video gallery built with HTML, CSS, and vanilla JavaScript.]
 ______________________________________________________________________________________________
 
-🚀 Live Demo Link : https://krishnasugangar.github.io/Video-Gallery/
+🚀 Live Demo Link : https://krishnasugangar.github.io/Video-Gallery/ [click here]
 
 📁 Repository Link : https://github.com/Krishnasugangar/Video-Gallery
 
