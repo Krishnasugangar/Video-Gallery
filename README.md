@@ -35,3 +35,12 @@ ________________________________________________________________________________
 
 * Hosting static projects with GitHub Pages
 
+______________________________________________________________________________________________
+To run the project
+
+Clone the project 
+
+open editor
+
+run the Index.html file
+
