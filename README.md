@@ -40,7 +40,5 @@ ________________________________________________________________________________
 
 * Clone the project  
 
-* open editor
-
 * run the Index.html file
 
