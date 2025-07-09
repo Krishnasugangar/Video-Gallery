@@ -1,62 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Video Gallery</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Varela+Round&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Video Gallery</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Varela+Round&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="menu-btn" class="fas fa-bars" aria-label="Toggle menu"></div>
-    
-    <div class="container">
-        <div class="side-bar">
-            <h2 class="gallery-title">Food Gallery</h2>
-            <ul class="menu-list">
-                <li class="active" data-src="images/vid-1.mp4">
-                    <i class="fas fa-hamburger"></i> <span>Cheese Burger</span>
-                </li>
-                <li data-src="images/vid-2.mp4">
-                    <i class="fas fa-pizza-slice"></i> <span>Pizza Decoration</span>
-                </li>
-                <li data-src="images/vid-3.mp4">
-                    <i class="fas fa-bread-slice"></i> <span>Sandwich</span>
-                </li>
-                <li data-src="images/vid-4.mp4">
-                    <i class="fas fa-coffee"></i> <span>Pouring Coffee</span>
-                </li>
-                <li data-src="images/vid-5.mp4">
-                    <i class="fas fa-candy-cane"></i> <span>Chocolate Closeup</span>
-                </li>
-                <li data-src="images/vid-6.mp4">
-                    <i class="fas fa-birthday-cake"></i> <span>Slicing Cake</span>
-                </li>
-                <li data-src="images/vid-7.mp4">
-                    <i class="fas fa-cookie"></i> <span>Donuts Zooming</span>
-                </li>
-                <li data-src="images/vid-8.mp4">
-                    <i class="fas fa-utensils"></i> <span>Instant Noodles</span>
-                </li>
-            </ul>
-        </div>
-
-        <div class="video-container">
-            <video src="images/vid-1.mp4" loop muted autoplay playsinline controls 
-                   aria-label="Food video player"></video>
-            <div class="video-info">
-                <h3>Cheese Burger</h3>
-                <p>Watch the delicious cheese melting on our signature burger</p>
-            </div>
-        </div>
+  <button id="menu-btn" class="fas fa-bars" aria-label="Toggle menu"></button>
+  
+  <div class="container">
+    <div class="side-bar">
+      <h2 class="gallery-title">Food Gallery</h2>
+      <ul class="menu-list">
+        <li class="active" data-src="images/vid-1.mp4"><i class="fas fa-hamburger"></i> <span>Cheese Burger</span></li>
+        <li data-src="images/vid-2.mp4"><i class="fas fa-pizza-slice"></i> <span>Pizza Decoration</span></li>
+        <li data-src="images/vid-3.mp4"><i class="fas fa-bread-slice"></i> <span>Sandwich</span></li>
+        <li data-src="images/vid-4.mp4"><i class="fas fa-coffee"></i> <span>Pouring Coffee</span></li>
+        <li data-src="images/vid-5.mp4"><i class="fas fa-candy-cane"></i> <span>Chocolate Closeup</span></li>
+        <li data-src="images/vid-6.mp4"><i class="fas fa-birthday-cake"></i> <span>Slicing Cake</span></li>
+        <li data-src="images/vid-7.mp4"><i class="fas fa-cookie"></i> <span>Donuts Zooming</span></li>
+        <li data-src="images/vid-8.mp4"><i class="fas fa-utensils"></i> <span>Instant Noodles</span></li>
+      </ul>
     </div>
 
-    <script src="script.js">
+    <div class="main-content">
+      <div class="video-container">
+        <video src="images/vid-1.mp4" autoplay muted loop controls playsinline></video>
+        <div class="video-info">
+          <h3>Cheese Burger</h3>
+          <p>Watch the delicious cheese melting on our signature burger</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </script>
+  <script src="script.js">
+   
+  </script>
 </body>
 </html>
