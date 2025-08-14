@@ -1,4 +1,4 @@
-🎥 Video Gallery project
+🎥 Video Gallery proje
 
 [A responsive and interactive video gallery built with HTML, CSS and vanilla JavaScript.] 
 ______________________________________________________________________________________________
