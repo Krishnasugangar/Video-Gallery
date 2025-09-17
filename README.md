@@ -39,7 +39,7 @@ ________________________________________________________________________________
 
 * Clone the project  
 
-* run the Index.html file
+* run the Index.html file 
 
 * Screenshots of this project are below :
 
